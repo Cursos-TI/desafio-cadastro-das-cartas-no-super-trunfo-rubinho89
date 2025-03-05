@@ -31,8 +31,7 @@ int main(){
     printf("Digite o pib: \n");
     scanf("%s\n", Pib);
 
-    printf("Digite os pontos turisticos: \n");
-    scanf("%s\n", pontosturisticos);
+    printf("Digite os pontos turisticos: \n");    scanf("%s\n", pontosturisticos);
 
     return 0;
 
