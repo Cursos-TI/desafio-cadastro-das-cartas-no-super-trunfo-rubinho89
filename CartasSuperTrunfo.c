@@ -12,6 +12,8 @@ int main(){
   int pontosturisticos;
   char estado;
   char codigo[50];
+  float densidadepopulacional;
+  float PIBpercapita;
 
   printf("Digite o estado: \n");
   scanf("%s\n",estado);
@@ -34,6 +36,12 @@ int main(){
   printf("Digite os pontos turisticos: \n");
   scanf("%d",pontosturisticos);
 
+  float pibPerCapita = calcularPIBPerCapita(pib, populacao);
+
+ printf("PIB per capita: R$ %.2f mil\n", pibPerCapita);
+
+  
+
 //Carta 2
 
 
@@ -44,6 +52,8 @@ int main(){
   int pontosturisticos2;
   char estado2;
   char codigo2[50];
+  float densidade populacional2;
+  float PIB per capita;
 
   printf("Digite o estado: \n");
   scanf("%s\n",estado2);
